@@ -1,0 +1,95 @@
+{
+  "fecha_entrenamiento": "2025-12-17T00:38:29.124552",
+  "n_registros_train": 576,
+  "n_registros_test": 144,
+  "features": [
+    "pH",
+    "temperatura_C",
+    "humedad_suelo_%",
+    "N_ppm",
+    "P_ppm",
+    "K_ppm"
+  ],
+  "alertas": [
+    "ph_bajo",
+    "ph_alto",
+    "hum_baja",
+    "hum_alta",
+    "temp_baja",
+    "temp_alta",
+    "n_bajo",
+    "n_alto",
+    "p_bajo",
+    "p_alto",
+    "k_bajo",
+    "k_alto"
+  ],
+  "f1_promedio": 1.0,
+  "metricas_por_alerta": {
+    "ph_bajo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "ph_alto": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "hum_baja": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "hum_alta": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "temp_baja": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "temp_alta": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "n_bajo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "n_alto": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "p_bajo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "p_alto": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "k_bajo": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "k_alto": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "hiperparametros": {
+    "n_estimators": 100,
+    "max_depth": 15,
+    "class_weight": "balanced"
+  }
+}
