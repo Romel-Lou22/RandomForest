@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Modelos entrenados
+modelos/*.pkl
+modelos/*.joblib
+
+# Datos (opcional, depende si quieres versionar el CSV)
+# *.csv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Reportes generados
+reportes/*.txt
+reportes/*.jsonclear
